@@ -10,7 +10,7 @@
         id: 2,
         name: "Gold Chain Necklace",
         price: 800,
-        image: "https://images.unsplash.com/photo-1599643478518-17488fbbcd75?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        image: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
         description: "Classic 24-inch Cuban link chain crafted in rich 18k yellow gold."
     },
     {
