@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="jewelry-demo/product.html">
+    <Files>
+      <File FileName="jewelry-demo/demo.js" Line="37" Column="3" />
+      <File FileName="jewelry-demo/index.html" Line="49" Column="8" />
+      <File FileName="jewelry-demo/product.html" Line="36" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="jewelry-demo" expanded="True">
+            <Node name="jewelry-demo" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.jewelry-demo FirstBuild="True" />
+</Properties>
