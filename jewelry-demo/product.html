@@ -1,10 +1,36 @@
-﻿using System;
-namespace jewelrydemo
-{
- public class product
- {
-     public product()
-     {
-     }
- }
-}
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Details</title>
+</head>
+<body>
+    <a href="index.html">← Back to Shop</a>
+
+    <div id="detail-view">
+    </div>
+
+    <script src="data.js"></script>
+    <script>// 1. Grab the ID from the URL (e.g., ?id=3)
+        const params = new URLSearchParams(window.location.search);
+        const clickedId = params.get('id');
+
+        // 2. Find the matching product in data.js
+        // We ensure the IDs are compared as numbers
+        const product = products.find(p => p.id == clickedId);
+
+        const container = document.getElementById('detail-view');
+
+        // 3. Display it
+        if (product) {
+            container.innerHTML = `
+                <h1>${product.name}</h1>
+                <img src="${product.image}" alt="${product.name}">
+                <h2>$${product.price}</h2>
+                <p>${product.description}</p>
+                <button>Add to Cart</button>
+            `;
+        } else {
+            container.innerHTML = "<h1>Product not found!</h1>";
+        }</script>
+</body>
+</html>
