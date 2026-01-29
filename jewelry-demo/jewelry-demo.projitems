@@ -9,7 +9,7 @@
     <Import_RootNamespace>jewelry-demo</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)dama.js" />
+    <None Include="$(MSBuildThisFileDirectory)data.js" />
     <None Include="$(MSBuildThisFileDirectory)index.html" />
     <None Include="$(MSBuildThisFileDirectory)product.html" />
   </ItemGroup>
